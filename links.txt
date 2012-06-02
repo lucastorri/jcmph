@@ -1,0 +1,4 @@
+http://forums.netbeans.org/post-88139.html
+http://java.sun.com/docs/books/jni/html/start.html#26346
+http://sourceforge.net/projects/machoview/
+http://cmph.sourceforge.net/

@@ -1,0 +1,9 @@
+autoheader
+autoscan
+aclocal
+autoconf
+touch AUTHORS NEWS README ChangeLog
+automake --add-missing
+autoreconf -i
+./configure
+make
