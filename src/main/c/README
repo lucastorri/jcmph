@@ -1,3 +1,4 @@
+gcc -fPIC -c -I/System/Library/Frameworks/JavaVM.framework//Versions/A/Headers/ jcmph_CMPH.c -o libjcmph_CMPH.o
 otool -L libjcmph_CMPH.dylib
 libtool -dynamic -o libjcmph_CMPH.dylib libjcmph_CMPH.o /usr/local/lib/libcmph.dylib -lc 
 sudo mv libjcmph_CMPH.dylib /usr/lib/libjcmph_CMPH.dylib
