@@ -1,11 +1,11 @@
 package main.scala
 
+import jcmph._
+
 object Main {
 
-  System.loadLibrary("cmph")
-
   def main(args: Array[String]) = {
-  
+    val cmph = new CMPH
     println("hello")
   }
 

@@ -1,0 +1,14 @@
+Small experiment to crete a Java/Scala API to CMPH (C Minimal Perfect Hashing) Library.
+
+Right now it is a very basic setup to make JNI work. It is possible to return to java an id based on a given key and an existent pre-computed mph file.
+
+
+For running in Mac OS
+1. Download the project source code from the website, compile (follow compile_cmph.txt), install
+2. Compile and install the C adapter for the native calls (main/src/c, there is a README on the folder).
+3. export DYLD_LIBRARY_PATH=/usr/lib
+
+
+
+To generate a new header file:
+javah -jni jcmpth.CMPH

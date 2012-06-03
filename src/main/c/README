@@ -1,0 +1,3 @@
+otool -L libjcmph_CMPH.dylib
+libtool -dynamic -o libjcmph_CMPH.dylib libjcmph_CMPH.o /usr/local/lib/libcmph.dylib -lc 
+sudo mv libjcmph_CMPH.dylib /usr/lib/libjcmph_CMPH.dylib
